@@ -14,20 +14,15 @@ In order to run the projects locally you need to have Node, npm and `python3` in
 First, create a Python virtual environment to isolate the projects:
 
 ```bash
-python3 -m venv logrocket_env
+python3 -m venv env
 ```
 
 Then, activate it:
 
 ```bash
-source logrocket_env/bin/activate
+source env/bin/activate
 ```
 
-`cd` into the _venv_ and clone the project from GitHub:
-
-```bash
-git clone https://github.com/diogosouza/django-react-logrocket.git
-```
 
 Add the Django dependencies:
 
@@ -35,7 +30,7 @@ Add the Django dependencies:
 pip install django djangorestframework django-cors-headers
 ```
 
-Finally, `cd` into the _django-react-logrocket_ folder and run the project:
+Finally, `cd` into the stud folder and run the project:
 
 ```bash
 python manage.py runserver
